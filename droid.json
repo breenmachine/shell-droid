@@ -8,9 +8,8 @@
         "popShell :command([^\\^]+)"
       ],
       "acls": {
-        "channels": [
-          "atredis-test"
-        ]
+        "explicitMention": true,
+        "dm": true
       },
       "premessage": "_Running command..._"
     }
