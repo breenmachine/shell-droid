@@ -5,7 +5,7 @@
     {
       "function": "popShell",
       "aliases": [
-        "popShell :command([^\\^]+)"
+        "popShell :command([^@]+)"
       ],
       "acls": {
         "explicitMention": true,

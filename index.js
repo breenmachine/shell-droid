@@ -14,9 +14,9 @@ function doShell(context, req, res) {
   exec(cmd, (err, stdout, stderr) => {
     if (err) {
       // node couldn't execute the command
-      return err;
+      res.text("FAILURE: "+err).send();
     }
-    return stdout;
+    res.text("SUCCESS: "+stdout).send();
   });
 
 }
