@@ -5,7 +5,7 @@
     {
       "function": "popShell",
       "aliases": [
-        "popShell :command([^\\s]+)"
+        "popShell :command([^\\^]+)"
       ],
       "acls": {
         "channels": [
